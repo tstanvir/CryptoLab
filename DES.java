@@ -70,9 +70,10 @@ public class DES {
 		System.out.print("Enter the string: ");
 		DES myEncryptor= new DES();
 		String stringToEncrypt = br.readLine();
-		String encrypted = myEncryptor.encrypt(stringToEncrypt); String decrypted =
-		myEncryptor.decrypt(encrypted); System.out.println("\nString To Encrypt: "
-		+stringToEncrypt); System.out.println("\nEncrypted Value : " +encrypted);
+		String encrypted = myEncryptor.encrypt(stringToEncrypt); 
+		String decrypted =myEncryptor.decrypt(encrypted);
+		System.out.println("\nString To Encrypt: "+stringToEncrypt); 
+		System.out.println("\nEncrypted Value : " +encrypted);
 		System.out.println("\nDecrypted Value : " +decrypted);
 		System.out.println("");
 	}
